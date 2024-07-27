@@ -2,13 +2,10 @@
   "name": "typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "t1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "typescript": "^5.5.4"
-  }
+  "license": "ISC"
 }
