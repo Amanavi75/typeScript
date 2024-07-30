@@ -11,10 +11,13 @@ function isL(user:User){
         return false;
     }
 }
-
-function greeting(user:User){
-    console.log("hi there"+ user.firstName);
+function greeting(){
+    console.log("hi there");
 }
+
+greeting();
+
+
 
 
 //* to avoid the writting the same code again and again we create an interface and implement it where it is needed
