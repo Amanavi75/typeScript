@@ -13,6 +13,11 @@ function addtwo(num:number):number{
 console.log(addtwo(8))
 //* correct method to write the function
 
+// even we can control the return type of the function 
+
+
+
+
 
 
 
