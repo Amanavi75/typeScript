@@ -12,8 +12,18 @@ type User3 = {
     age:number,
 }
 
-let employee : User1 | User3 = {name:"aman",id:139}
+let aman : User1 | User3 = {name:"aman",id:139}
 
+aman = {role:"swer",age:23}
 let em2 :User1 | User3 = {role:"sde",age:24}
 
+
+// using in parameter
+function getDbID (ID:Number | string){
+    console.log(`db id is ${ID}`)
+
+}
+
+getDbID(2)
+getDbID("2")
 
