@@ -7,8 +7,23 @@ interface User8 {
     getCoupon(couponName:string):number
 }
 
-const hitesh:User8 = {
+// we can rewrite the interface with extra property and method 
+
+interface User8 {
+    githubToken:string
+}
+
+//we inherit the properties of earlier made interface using extends keyword 
+
+
+interface Admin extends User8{
+    role:string 
+}
+
+const hitesh:Admin = {
     email: "aman75@gmail.com", id: 6,
+    role:"sde",
+    githubToken:"adi",
     startTrial :()=>{
         return "starting up the trail"
     },
