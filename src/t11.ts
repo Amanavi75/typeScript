@@ -10,6 +10,16 @@ class User9{
     }
 }
 
+class User10{
+    
+    constructor (public email:string, public name:string){
+      
+    }
+}
+
+const aman6=new User10("aman","adi")
+
+// additional method to write class without this keyword 
 
 // object 
 const hitesh1 = new User9("h@mail.com","hitesh")
