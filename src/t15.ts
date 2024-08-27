@@ -51,3 +51,4 @@ class Insta extends takePhoto {
   }
 
 }
+}
