@@ -1,6 +1,4 @@
 // generics
-// it makes component  reusable  having well defined api
-// returning the same type of data as passed in parameter  we can use any keyword but it is not considered as stable
 
 const score2: Array<number> = [];
 
